@@ -32,6 +32,7 @@ function AddExpenseModal({
           form.resetFields();
         }}
       >
+         // ---------------------------------------------------------------name of transaction ----------------------------------------------------------------
         <Form.Item
           style={{ fontWeight: 600 }}
           label="Name"
@@ -45,6 +46,7 @@ function AddExpenseModal({
         >
           <Input type="text" className="custom-input" />
         </Form.Item>
+            //-----------------------------------------------------------------amount ----------------------------------------------------------------------------
         <Form.Item
           style={{ fontWeight: 600 }}
           label="Amount"
